@@ -2,10 +2,9 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "portfolio site",
-  "main": "app.js",
+  "main": "./server/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -19,8 +18,6 @@
   "homepage": "https://github.com/SethDS/Portfolio#readme",
   "dependencies": {
     "body-parser": "^1.17.1",
-    "express": "^4.15.2",
-    "massive": "^2.6.0",
-    "nodemon": "^1.11.0"
+    "express": "^4.15.2"
   }
 }
