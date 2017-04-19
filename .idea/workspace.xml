@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f30e5291-2c06-4e8b-a2c0-3d534a1505e6" name="Default" comment="" />
+    <list default="true" id="f30e5291-2c06-4e8b-a2c0-3d534a1505e6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home.html" afterPath="$PROJECT_DIR$/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main-controller.js" afterPath="$PROJECT_DIR$/main-controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylsheet.css" afterPath="$PROJECT_DIR$/stylsheet.css" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -18,14 +25,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main-controller.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main-controller.js">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#40#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="200">
+              <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -46,10 +51,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/home.html" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/main-controller.js" />
+        <option value="$PROJECT_DIR$/stylsheet.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/home.html" />
       </list>
     </option>
   </component>
@@ -165,6 +171,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="f30e5291-2c06-4e8b-a2c0-3d534a1505e6" name="Default" comment="" />
@@ -172,12 +181,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1492640359829</updated>
-      <workItem from="1492640361275" duration="782000" />
+      <workItem from="1492640361275" duration="1594000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="782000" />
+    <option name="totallyTimeSpent" value="1594000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="41" width="1384" height="736" extended-state="6" />
@@ -221,25 +230,35 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylsheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
           <folding>
-            <marker date="1492640856691" expanded="true" signature="21:843" ph="..." />
-            <marker date="1492640856691" expanded="true" signature="28:125" ph="..." />
-            <marker date="1492640856691" expanded="true" signature="133:835" ph="..." />
-            <marker date="1492640856691" expanded="true" signature="794:827" ph="..." />
+            <marker date="1492641392941" expanded="true" signature="14:73" ph="{...}" />
+            <marker date="1492641392941" expanded="true" signature="82:186" ph="{...}" />
+            <marker date="1492641392941" expanded="true" signature="203:297" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="380">
+          <caret line="19" column="67" lean-forward="true" selection-start-line="19" selection-start-column="67" selection-end-line="19" selection-end-column="67" />
           <folding>
-            <marker date="1492640904482" expanded="true" signature="23:116" ph="..." />
+            <marker date="1492641876706" expanded="true" signature="21:911" ph="..." />
+            <marker date="1492641876706" expanded="true" signature="28:125" ph="..." />
+            <marker date="1492641876706" expanded="true" signature="133:903" ph="..." />
+            <marker date="1492641876706" expanded="true" signature="862:895" ph="..." />
           </folding>
         </state>
       </provider>
@@ -257,11 +276,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main-controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        <state relative-caret-position="200">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
           <folding>
-            <element signature="e#0#40#0" expanded="false" />
+            <marker date="1492641334820" expanded="false" signature="0:40" ph="/** Created by Seth on 4/19/2017. ...*/" />
+            <marker date="1492641334820" expanded="true" signature="123:272" ph="{...}" />
+            <marker date="1492641334820" expanded="true" signature="154:246" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
