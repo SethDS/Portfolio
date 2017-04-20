@@ -3,6 +3,24 @@ body {
 }
 
 
+/*ANIMATIONS*/
+
+/*home page name animation*/
+@keyframes homeName {
+    0%{
+        color: white;
+    }
+    25%{
+        color: black;
+    }
+    50%{
+        color: white;
+    }
+    100%{
+        color: white;
+    }
+}
+
 /*HOME PAGE STYLES*/
 
 /*fluid effect*/
@@ -40,7 +58,14 @@ body {
     color: white;
     font-size: x-large;
     font-family: 'Economica', sans-serif;
+    letter-spacing: 5rem;
 }
 .the-name{
     margin-left: calc(100vw/10);
+    margin-right: calc(100vw/10);
+}
+.name-letter{
+    animation-name: homeName;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
 }
