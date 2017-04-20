@@ -6,8 +6,8 @@ angular.module('myApp', ['ui.router'])
         $stateProvider
             .state('home', {
                 url: '/',
-                templateUrl: './home.html',
+                templateUrl: 'home.html',
                 controller: 'mainCtrl'
-            })
+            });
 
 });
