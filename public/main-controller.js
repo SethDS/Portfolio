@@ -9,7 +9,4 @@ angular.module('myApp').controller('mainCtrl', function($scope, $window){
         }
         fluidInit();
 
-
-        console.log('yo')
-
 });
