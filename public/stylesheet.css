@@ -73,10 +73,10 @@ body {
 }
 
 .home-text:hover:before {
-    content: '.................|    '
+    content: '.................    '
 }
 .home-text:hover:after {
-    content: '    |..................'
+    content: '    ..................'
 }
 
 /*name styling*/
