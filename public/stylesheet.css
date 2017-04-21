@@ -210,13 +210,21 @@ animation-delay: 1.6s;
     width: 100%;
     overflow: hidden;
 }
+.portfolio-header{
+    position: absolute;
+    top: 0;
+    height: 15%;
+    width: 100%;
+    left: 50px;
+    margin-bottom: 1px solid black;
+}
 
 .portfolio-nav{
     position: absolute;
     left: 0;
     height: 100%;
     width: 50px;
-    background-color: black;
+    background-color: grey;
 }
 
 .project-info{
@@ -225,6 +233,8 @@ animation-delay: 1.6s;
     width: calc(100%/2 - 5px);
     left: 50px;
     font-family: 'Open Sans', sans-serif;
+    color: black;
+    background-color: white;
 }
 .project-info-wrapper{
     padding-left: 50px;
@@ -236,13 +246,7 @@ animation-delay: 1.6s;
     align-items: center;
 }
 
-.project-view{
-    position: absolute;
-    height: 100%;
-    width: calc(100%/2 - 5px);
-    right: 0;
-    background-color: gray;
-}
+
 .project-name{
     font-family: 'Open Sans', sans-serif;
     font-size: x-large;
@@ -264,13 +268,37 @@ animation-delay: 1.6s;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: initial;
+
+    font-size: xx-large;
+}
+
+.fa{
+    cursor: pointer;
+}
+
+.project-view{
+    position: absolute;
+    height: 100%;
+    width: calc(100%/2 - 5px);
+    right: 0;
+    background-color: white;
+}
+.project-view-nav{
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 50px;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
 }
-.fa-angle-up{
-    height: 50px;
-    width: 50px;
-}
-.fa-angle-down{
-    height: 50px;
-    width: 50px;
+.projectScreenShot{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 50%;
 }
