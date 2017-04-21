@@ -223,7 +223,6 @@ animation-delay: 1.6s;
     position: absolute;
     height: 100%;
     width: calc(100%/2 - 5px);
-    background-color: aqua;
     left: 50px;
 }
 .project-view{
@@ -231,5 +230,13 @@ animation-delay: 1.6s;
     height: 100%;
     width: calc(100%/2 - 5px);
     right: 0;
-    background-color: cadetblue;
+    background-color: gray;
+}
+.project-name{
+    position: relative;
+    top: 25%;
+    left: 50%;
+    transform: translate(-6%, -50%);
+    font-family: 'Open Sans', sans-serif;
+    font-size: x-large;
 }
