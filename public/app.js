@@ -12,7 +12,7 @@ angular.module('myApp', ['ui.router'])
             .state('portfolio', {
                 url: '/portfolio',
                 templateUrl: 'portfolio.html',
-                controller: 'portCtrl'
+                controller: 'portfolioCtrl'
             })
             .state('resume', {
                 url: '/resume',

@@ -218,3 +218,18 @@ animation-delay: 1.6s;
     width: 50px;
     background-color: black;
 }
+
+.project-info{
+    position: absolute;
+    height: 100%;
+    width: calc(100%/2 - 5px);
+    background-color: aqua;
+    left: 50px;
+}
+.project-view{
+    position: absolute;
+    height: 100%;
+    width: calc(100%/2 - 5px);
+    right: 0;
+    background-color: cadetblue;
+}
