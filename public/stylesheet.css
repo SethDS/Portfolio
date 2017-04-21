@@ -201,3 +201,20 @@ animation-delay: 1.6s;
     font-family: 'Economica', sans-serif;
     /*background-color: white;*/
 }
+
+/*PORTFOLIO VIEW STYLES*/
+
+.portfolio-main-container{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.portfolio-nav{
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 50px;
+    background-color: black;
+}
