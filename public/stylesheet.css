@@ -224,7 +224,18 @@ animation-delay: 1.6s;
     height: 100%;
     width: calc(100%/2 - 5px);
     left: 50px;
+    font-family: 'Open Sans', sans-serif;
 }
+.project-info-wrapper{
+    padding-left: 50px;
+    position: absolute;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .project-view{
     position: absolute;
     height: 100%;
@@ -233,10 +244,33 @@ animation-delay: 1.6s;
     background-color: gray;
 }
 .project-name{
-    position: relative;
-    top: 25%;
-    left: 50%;
-    transform: translate(-6%, -50%);
     font-family: 'Open Sans', sans-serif;
     font-size: x-large;
+}
+.project-situation{
+    width: 60%;
+}
+.project-tech{
+    width: 60%;
+}
+
+.project-nav{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 10%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.fa-angle-up{
+    height: 50px;
+    width: 50px;
+}
+.fa-angle-down{
+    height: 50px;
+    width: 50px;
 }
