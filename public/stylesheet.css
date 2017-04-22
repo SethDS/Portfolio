@@ -286,7 +286,13 @@ animation-delay: 1.6s;
 
     font-size: xx-large;
     z-index: 1;
+    transition-duration: .5s;
 }
+.project-nav:hover {
+    background-color: white;
+    opacity: 0.4;
+}
+
 /*nav name styling*/
 #port-name-s{
     animation-delay: 1s;
@@ -364,7 +370,14 @@ animation-delay: .5s;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition-duration: .5s;
+    z-index: 1;
 }
+.project-view-nav:hover {
+    background-color: white;
+    opacity: .4;
+}
+
 .projectScreenShot{
     position: absolute;
     top: 50%;

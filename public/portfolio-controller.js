@@ -3,5 +3,21 @@
  */
 angular.module('myApp').controller('portfolioCtrl', function($scope, mainService){
 
-   $scope.project = mainService.projects;
+   $scope.projects = mainService.projects;
+   var count = 0;
+   $scope.project = $scope.projects[0];
+
+   $scope.pageTurnRight = function(){
+      if(count < $scope.projects.length - 1){
+         count++;
+          $scope.project = $scope.projects[count];
+      }
+   };
+   $scope.pageTurnLeft = function(){
+      if(count > 0){
+         count--;
+         $scope.project = $scope.projects[count];
+      }
+   }
+
 });
