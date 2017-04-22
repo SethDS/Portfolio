@@ -44,7 +44,7 @@
 
     <div class="project-view">
 
-        <img class="projectScreenShot" src="{{project.screenshot}}">
+        <img ng-repeat="img in project.screenshots" class="projectScreenShot" src="{{img}}">
 
         <div class="project-view-nav">
             <i class="fa fa-angle-right" aria-hidden="true" ng-click="pageTurnRight()"></i>
