@@ -13,7 +13,6 @@ body {
     }
     25%{
         color: black;
-        transform: rotate(180deg);
     }
     50%{
         color: white;
@@ -61,7 +60,7 @@ body {
     font-size: x-large;
     font-family: 'Economica', sans-serif;
     letter-spacing: 1em;
-    transition-duration: .25s;
+    transition-duration: .5s;
     transition-timing-function: ease-out;
     display: flex;
     align-items: center;
@@ -72,6 +71,9 @@ body {
     background-color: white;
     color: black;
     letter-spacing: .5em;
+}
+.home-p{
+    transition-duration: .5s;
 }
 
 .home-text:hover > .home-p {
@@ -215,7 +217,7 @@ animation-delay: 1.6s;
     height: 100%;
     width: 100%;
     overflow: hidden;
-    color: darkgray;
+    color: darkslategray;
 }
 
 .portfolio-nav{
@@ -259,6 +261,12 @@ animation-delay: 1.6s;
     font-size: x-large;
 }
 .project-situation{
+    width: 60%;
+}
+.project-action{
+    width: 60%;
+}
+.project-result{
     width: 60%;
 }
 .project-tech{
