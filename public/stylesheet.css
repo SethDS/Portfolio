@@ -74,6 +74,10 @@ body {
     letter-spacing: .5em;
 }
 
+.home-text:hover > .home-p {
+    transform: rotate(90deg);
+}
+
 .home-text:hover:before {
     content: '.................    '
 }
