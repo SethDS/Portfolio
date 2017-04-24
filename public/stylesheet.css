@@ -212,19 +212,6 @@ animation-delay: 1.6s;
     overflow: hidden;
     color: darkgray;
 }
-.portfolio-header{
-    position: absolute;
-    top: 0;
-    height: 15%;
-    width: 100%;
-    z-index: 2;
-    color: black;
-    font-family: 'Open Sans', sans-serif;
-    font-size: xx-large;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .portfolio-nav{
     position: absolute;
@@ -353,13 +340,14 @@ animation-delay: .5s;
     color: black;
 }
 
+
 .project-view{
     position: absolute;
     height: 85%;
     top: 15%;
     width: calc(100%/2 - 5px);
     right: 0;
-    background-color: lightgray;
+    background-color: white;
     overflow-y: scroll;
 }
 .project-view::-webkit-scrollbar {
@@ -371,27 +359,29 @@ animation-delay: .5s;
     width: calc(100%/2 - 5px);;
     top: 0;
     right: 0;
-    height: 15%;
-    background-color: lightgray;
-    z-index: 1;
-}
-.project-view-nav{
-    position: fixed;
-    left: calc(100%/2 - 5px);
-    top: 0;
-    height: 100%;
-    width: 50px;
-    font-size: xx-large;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    transition-duration: .5s;
-    z-index: 1;
-}
-.project-view-nav:hover {
+    height: 33%;
     background-color: white;
-    opacity: .4;
+    color: black;
+    z-index: 1;
+}
+.project-top-wrapper{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-view-nav{
+  position: absolute;
+    height: 10%;
+    width: 100%;
+    top: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: x-large;
 }
 
 .projectScreenShot{

@@ -18,14 +18,10 @@
         <div class="name-letter" id="port-name-n"><p>n</p></div>
         <div class="name-letter" id="port-name-d2"><p>d</p></div>
     </div>
-    <div class="portfolio-header">
-        <p>{{project.name}}</p>
-    </div>
+
 
     <div class="project-info">
-        <div class="project-nav">
-            <i class="fa fa-angle-left" aria-hidden="true" ng-click="pageTurnLeft()"></i>
-        </div>
+
         <div class="project-info-wrapper">
             <div class="project-situation">
                 {{project.situation}}
@@ -44,12 +40,24 @@
 
     <div class="project-view">
 
-        <div class="project-view-top"></div>
+        <div class="project-view-top">
+            <div class="project-top-wrapper">
+                <div class="project-view-nav">
+                    <i class="fa fa-angle-left" aria-hidden="true" ng-click="pageTurnLeft()"></i>
+                        <div id="project-one">|</div>
+                        <div id="project-two">|</div>
+                        <div id="project-three">|</div>
+                        <div id="project-four">|</div>
+                        <div id="project-five">|</div>
+                    <i class="fa fa-angle-right" aria-hidden="true" ng-click="pageTurnRight()"></i>
+                </div>
+
+                <p class="project-name">{{project.name}}</p>
+            </div>
+
+        </div>
 
         <img ng-repeat="img in project.screenshots" class="projectScreenShot" src="{{img}}">
 
-        <div class="project-view-nav">
-            <i class="fa fa-angle-right" aria-hidden="true" ng-click="pageTurnRight()"></i>
-        </div>
     </div>
 </div>

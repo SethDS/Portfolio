@@ -6,6 +6,7 @@ angular.module('myApp').service('mainService', function () {
     this.projects = [
         {
             name: 'VentureBound',
+            id: 'one',
             situation: 'I needed an app that would allow me to add and save Google Maps locations, upload and locally save pictures and then present them again in an easy to navigate way.',
             action: 'I used Angular to create my app',
             result: 'VentureBound was the result',
@@ -16,6 +17,7 @@ angular.module('myApp').service('mainService', function () {
         },
         {
             name: 'Top Secret Clone',
+            id: 'two',
             situation: 'A couple other devs and I decided we wanted to try our hand at re-creating a jaw-dropping CSS masterpiece.',
             action: 'So we got together and brainstormed how we were going to tackle this creative conundrum.  I got assigned to do the home page and the case studies page.',
             result: 'After a couple weeks of constant amazement at what the devs at STS accomplished, we had a pretty dang good shameless copy of success.',
@@ -33,6 +35,7 @@ angular.module('myApp').service('mainService', function () {
         },
         {
             name: 'Bound Books Clone',
+            id: 'three',
             situation: 'I needed an app that would allow me to add and save Google Maps locations, upload and locally save pictures and then present them again in an easy to navigate way.',
             action: 'I used Angular to create my app',
             result: 'VentureBound was the result',
@@ -43,6 +46,7 @@ angular.module('myApp').service('mainService', function () {
         },
         {
             name: 'Vacheron Constantin Clone',
+            id: 'four',
             situation: 'I needed an app that would allow me to add and save Google Maps locations, upload and locally save pictures and then present them again in an easy to navigate way.',
             action: 'I used Angular to create my app',
             result: 'VentureBound was the result',
@@ -53,6 +57,7 @@ angular.module('myApp').service('mainService', function () {
         },
         {
             name: 'Famiglia Cecchi Clone',
+            id: 'five',
             situation: 'I needed an app that would allow me to add and save Google Maps locations, upload and locally save pictures and then present them again in an easy to navigate way.',
             action: 'I used Angular to create my app',
             result: 'VentureBound was the result',
