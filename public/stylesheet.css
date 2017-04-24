@@ -13,6 +13,7 @@ body {
     }
     25%{
         color: black;
+        transform: rotate(180deg);
     }
     50%{
         color: white;
