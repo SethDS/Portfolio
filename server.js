@@ -12,8 +12,8 @@ app.use(bodyParser.json());
 
 
 
-var port = config.PORT;
+var port = process.env.PORT || config.PORT;
 app.listen(port, function(){
-   console.log('Listening on port ' + port);
+   console.log('Listening on port ' + port + '...');
 });
 
