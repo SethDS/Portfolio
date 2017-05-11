@@ -26,8 +26,7 @@ angular.module('myApp', ['ui.router'])
             })
             .state('contact', {
                 url: '/contact',
-                templateUrl: 'contact.html',
-                controller: 'contactCtrl'
+                templateUrl: 'contact.html'
             });
 
 });
