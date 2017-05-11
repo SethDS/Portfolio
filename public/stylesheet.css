@@ -404,3 +404,11 @@ animation-delay: .5s;
     transform: translate(-50%, -50%);
     height: 50%;
 }
+
+.message{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Open Sans', sans-serif;
+}
