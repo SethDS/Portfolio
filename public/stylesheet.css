@@ -412,3 +412,9 @@ animation-delay: .5s;
     transform: translate(-50%, -50%);
     font-family: 'Open Sans', sans-serif;
 }
+.message-home{
+    cursor: pointer;
+}
+.message-home:hover {
+    transform: rotate(90deg);
+}
