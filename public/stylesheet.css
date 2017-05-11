@@ -414,7 +414,5 @@ animation-delay: .5s;
 }
 .message-home{
     cursor: pointer;
-}
-.message-home:hover {
-    transform: rotate(90deg);
+    margin-left: 40%;
 }
