@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f30e5291-2c06-4e8b-a2c0-3d534a1505e6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/about-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/about.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/resume-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/resume.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/home.html" afterPath="$PROJECT_DIR$/public/home.html" />
-    </list>
+    <list default="true" id="f30e5291-2c06-4e8b-a2c0-3d534a1505e6" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -245,12 +239,12 @@
       <workItem from="1493492517902" duration="1000" />
       <workItem from="1493492525915" duration="4357000" />
       <workItem from="1493672820404" duration="2406000" />
-      <workItem from="1494531245245" duration="4272000" />
+      <workItem from="1494531245245" duration="4879000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63966000" />
+    <option name="totallyTimeSpent" value="64573000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1109" height="590" extended-state="6" />
